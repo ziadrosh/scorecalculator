@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic and Professional Score Calculator</title>
+    <link rel="stylesheet" href="bssst.css">
+</head>
+<body>
+    <header>
+        <h1>Academic and Professional Score Calculator</h1>
+        <h2>For the Post of SST BPS-16</h2>
+        <h3>In case of BS Degrees</h3>
+    </header>
+    <main>
+        <div class="input-group">
+            <label for="ssc-obtained">SSC Obtained Marks:</label>
+            <input type="number" id="ssc-obtained">
+            <label for="ssc-total">SSC Total Marks:</label>
+            <input type="number" id="ssc-total">
+        </div>
+        <div class="input-group">
+            <label for="hssc-obtained">HSSC Obtained Marks:</label>
+            <input type="number" id="hssc-obtained">
+            <label for="hssc-total">HSSC Total Marks:</label>
+            <input type="number" id="hssc-total">
+        </div>
+        <div class="input-group">
+            <label for="bs-obtained">BS Obtained Marks:</label>
+            <input type="number" id="bs-obtained">
+            <label for="bs-total">BS Total Marks:</label>
+            <input type="number" id="bs-total">
+        </div>
+        <div class="input-group">
+            <label for="bed-obtained">B.Ed Obtained Marks:</label>
+            <input type="number" id="bed-obtained">
+            <label for="bed-total">B.Ed Total Marks:</label>
+            <input type="number" id="bed-total">
+        </div>
+        <div class="input-group">
+            <label for="med-obtained">M.Ed Obtained Marks:</label>
+            <input type="number" id="med-obtained">
+            <label for="med-total">M.Ed Total Marks:</label>
+            <input type="number" id="med-total">
+        </div>
+        <div class="input-group">
+            <label for="mphil-obtained">M.Phil Obtained Marks:</label>
+            <input type="number" id="mphil-obtained">
+            <label for="mphil-total">M.Phil Total Marks:</label>
+            <input type="number" id="mphil-total">
+        </div>
+        <div class="input-group">
+            <label for="phd-obtained">Ph.D Obtained Marks:</label>
+            <input type="number" id="phd-obtained">
+            <label for="phd-total">Ph.D Total Marks:</label>
+            <input type="number" id="phd-total">
+        </div>
+        <button onclick="calculateAggregate()">Calculate Aggregate</button>
+        <div class="result">
+            <p>Total Aggregate Score: <span id="aggregate-score">0</span></p>
+        </div>
+    </main>
+    <footer>
+        <p>Designed By Muhammad Zia Ul Haq</p>
+        <p>Contact: 03454076054</p>
+    </footer>
+    <script src="bssst.js"></script>
+</body>
+</html>
